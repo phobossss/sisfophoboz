@@ -88,5 +88,6 @@ public class pesan {
     public void setMotor(String motor) {
         this.motor = motor;
     }
+	//Update borneo
 
 }
