@@ -13,6 +13,8 @@ public class party {
 
     String id_party;
     String description;
+    inventory[] listinventory=new inventory[50];
+    int juminentory;
     pesan[] listpesanan = new pesan[50];
     int jumpesan;
     worker[] listworker = new worker[50];
@@ -28,7 +30,19 @@ public class party {
         this.description = description;
         this.id_party = "1Phobos";
     }
-
+    public void addinven(inventory inven){
+        listinventory[juminentory]=inven;
+        juminentory++;
+    }
+    public pesan getpesan (String masukan){
+        pesan temu=null;
+        for (int i = 0; i <jumpesan; i++) {
+            if (listpesanan[i].getNama_pemilik().equals(masukan)) {
+                temu=listpesanan[i];
+            }
+        }
+        return temu;
+    }
     public void addpemilik(person p) {
         this.pemilik = p;
 

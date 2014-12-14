@@ -13,8 +13,39 @@ public class pesan {
 
     private String nama_pemilik;
     private String motor;
-    
+
     private String status;
+
+    private String akreditasi;
+    
+    private String nama_pengerja;
+
+    public String getNama_pengerja() {
+        return nama_pengerja;
+    }
+
+    public void setNama_pengerja(String nama_pengerja) {
+        this.nama_pengerja = nama_pengerja;
+    }
+
+
+    public String getAkreditasi() {
+        return akreditasi;
+    }
+
+    public void setAkreditasi(String akreditasi) {
+        this.akreditasi = akreditasi;
+    }
+
+    private int lama_pengerjaan;
+
+    public int getLama_pengerjaan() {
+        return lama_pengerjaan;
+    }
+
+    public void setLama_pengerjaan(int lama_pengerjaan) {
+        this.lama_pengerjaan = lama_pengerjaan;
+    }
 
     public String getStatus() {
         return status;
@@ -30,10 +61,10 @@ public class pesan {
         this.nama_pemilik = nama_pemilik;
         this.motor = motor;
         this.kerusakan = kerusakan;
-        this.status="Pending";
+        this.status = "Pending";
+        this.lama_pengerjaan = 0;
     }
 
-    
     public String getKerusakan() {
         return kerusakan;
     }
@@ -41,7 +72,6 @@ public class pesan {
     public void setKerusakan(String kerusakan) {
         this.kerusakan = kerusakan;
     }
-
 
     public String getNama_pemilik() {
         return nama_pemilik;
