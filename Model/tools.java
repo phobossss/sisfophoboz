@@ -31,5 +31,5 @@ public class tools {
     public void setId_tool(String id_tool) {
         this.id_tool = id_tool;
     }
-	//Update untuk borneo
+	//Update borneo
 }
