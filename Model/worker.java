@@ -47,5 +47,5 @@ public class worker extends orang{
     public void setId_worker(String id_worker) {
         this.id_worker = id_worker;
     }
-	//Update tadi malam
+	//Update untuk borneo
 }
