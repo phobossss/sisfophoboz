@@ -80,4 +80,5 @@ public class party {
     public pesan[] getlistpesan(){
         return listpesanan;
     }
+	//Update Borneo
 }
