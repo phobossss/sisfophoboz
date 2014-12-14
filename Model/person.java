@@ -40,5 +40,6 @@ public class person extends orang {
     public void setId_person(String id_person) {
         this.id_person = id_person;
     }
+	//Update Borneo
 
 }
